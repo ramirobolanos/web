@@ -89,14 +89,22 @@
                 <h2>contact me</h2>
                 <p>
                     <form
-                     action="https://formspree.io/xnqbrdby"
-                     method="POST">
-                        
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
-                    </form> 
+  action="https://formspree.io/xnqbrdby"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
                 </p>
             </section>
         </div>
