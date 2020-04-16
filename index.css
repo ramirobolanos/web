@@ -79,9 +79,9 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:#c2c2c2;
+    color:#fff;
     font-size:70px;
-    text-decoration:underline;
+
 }
 #about {
     width:10vw;
@@ -137,15 +137,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:#c2c2c2;
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:#c2c2c2;
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:#c2c2c2;
     cursor:pointer;
 }
 #middle table {
@@ -262,7 +262,7 @@ body {
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid #c2c2c2;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
@@ -274,11 +274,11 @@ body {
 }
 .container form input:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px #c2c2c2;
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid #c2c2c2);
 }
 ::placeholder {
     color:#fff;
