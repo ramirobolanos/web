@@ -137,7 +137,7 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:#c2c2c2;
+    background:#fff;
     cursor:pointer;
 }
 #work:hover {
@@ -313,7 +313,7 @@ body {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #c2c2c2;
+    background: #fff;
 }
 ::selection {
 	color: #fff;
