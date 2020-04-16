@@ -310,7 +310,7 @@ body {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #c2c2c2;
+    background: #fff;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #c2c2c2;
