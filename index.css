@@ -171,7 +171,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:#c2c2c2;
     color:#fff;
     z-index:9;
     position:fixed;
@@ -310,10 +310,10 @@ body {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50);
+    background: #c2c2c2;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8);
+    background: #c2c2c2;
 }
 ::selection {
 	color: #fff;
